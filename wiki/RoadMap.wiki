@@ -1,0 +1,8 @@
+#summary Development roadmap and release plans.
+#labels Deprecated
+
+= GitTorrent Project Roadmap =
+
+== Milestone 1.0 ==
+
+ * Finish first version of protocol specification.
