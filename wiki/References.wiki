@@ -2,9 +2,7 @@
 
 = Existing Work =
 
- * RFC: [http://jonas.nitro.dk/gittorrent/rfc.html Initial draft v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)] later [http://gittorrent.utsl.gen.nz/rfc.html extended by Sam Vilain]
-[http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)].
-[http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
+ * RFC: [http://jonas.nitro.dk/gittorrent/rfc.html Initial draft v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)] later [http://gittorrent.utsl.gen.nz/rfc.html extended by Sam Vilain] [http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)] [http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
 
  * [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation].
 
