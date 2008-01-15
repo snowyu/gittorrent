@@ -1,0 +1,31 @@
+#summary References to GitTorrent related work and resources.
+
+= Existing Work =
+
+* RFC: [http://jonas.nitro.dk/gittorrent/rfc.html Initial draft v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)] later [http://gittorrent.utsl.gen.nz/rfc.html extended by Sam Vilain]
+[http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)].
+[http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
+
+* [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation].
+
+* [http://jonas.nitro.dk/gittorrent/libgtp.git/ Start of a C library].
+
+= Git Resources =
+
+* [http://www.kernel.org/pub/software/scm/git/ Main distribution point] with the [http://www.kernel.org/pub/software/scm/git/docs man pages] and a [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial].
+
+* [http://www.git-scm.org/ homepage] with [http://www.git-scm.org/gitwiki wiki].
+
+= Related Protocols =
+
+* BitTorrent: [http://www.bittorrent.org/protocol.html protocol]
+
+* DebTorrent: [http://wiki.debian.org/DebTorrent protocol] and [http://debtorrent.alioth.debian.org/ project].
+
+= Libraries =
+
+* Ruby: [http://repo.or.cz/w/gitrb.git gitrb] [http://repo.or.cz/w/git/ruby-binding.git ruby-binding].
+
+* Java: [http://repo.or.cz/w/egit.git library and Eclipse plugin].
+
+* Serialization: [http://repo.or.cz/w/git/fastimport.git Fastimport] (has been merged for some time) and [http://repo.or.cz/w/git/packv4.git Packs version 4].
