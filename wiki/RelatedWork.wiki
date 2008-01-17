@@ -20,6 +20,8 @@
 
  * [http://www.git-scm.org/ homepage] with [http://www.git-scm.org/gitwiki wiki].
 
+ * Linus Torvalds' [http://www.youtube.com/watch?v=4XpnKHJAok8 talk on git].
+ * Randal Schwartz' [http://www.youtube.com/watch?v=8dhZ9BXQgc4 talk on git].
 = Related Protocols =
 
  * BitTorrent: [http://www.bittorrent.org/protocol.html protocol]
