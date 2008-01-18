@@ -4,8 +4,8 @@ The road map as presented here has not been divided into milestones but is rathe
 
 = Preliminary Project Tasks =
 
- * Repository update semantics: Map in detail the update semantics of a repository. More specifically, the resulting change of a given action, such as committing and tagging.
+ * Repository update semantics: Map in detail the update semantics of a repository. More specifically, the resulting change of a given action, such as committing and tagging. The goal is to understand how atomicity and the append-only nature are achieved.
 
- * Repository statistics: Create tools for gathering statistic information about the object database of various opensource projects. The goal is to get an idea of how the various object types relate to each other in terms of amounts and delta-size between snapshots. For example how big a percentage do commit objects make up of a repository.
+ * Repository statistics: Create tools for gathering statistics for the object database of various opensource projects. The goal is to get an idea of how the various object types relate to each other in terms of amounts and delta-size between snapshots. For example how big a percentage do commit objects make up of a repository.
 
- * Repository hierarchic structure: Create tools for investigating how different repositories relate to each other, e.g. how Linus' tree relates to the tree of Jeff Garzik. Git's distributed model encourages forking resulting in many repositories sharing most of the data. Each repository can be seen as a set with objects overlapping between different repository sets.
+ * Repository hierarchic structure: Create tools for investigating how different repositories relate to each other, e.g. how Linus' tree relates to the tree of Jeff Garzik. Git's distributed model encourages forking resulting in many repositories sharing most of the data. Each repository can be seen as a set with objects overlapping between different repository sets. The goal is to get a sense of familiarity and ancestry between a neighborhood of repositories.
