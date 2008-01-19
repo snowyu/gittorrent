@@ -1,6 +1,6 @@
 #summary References to GitTorrent related work and resources.
 
-= Existing Work =
+== Existing Work ==
 
  * [http://gittorrent.googlecode.com/files/Fonseca-2006.pdf Paper] describing an initial draft of [http://jonas.nitro.dk/gittorrent/rfc.html the RFC v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)].
  * [http://gittorrent.utsl.gen.nz/rfc.html Extended RFC] by Sam Vilain [http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)] [http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
@@ -10,7 +10,7 @@
  * [http://utsl.gen.nz/gitweb/?p=php-gt;a=summary Planning of a PHP library].
  * [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation] from initial draft project.
 
-= Git Resources =
+== Git Resources ==
 
  * [http://www.kernel.org/pub/software/scm/git/ Main distribution point] with the [http://www.kernel.org/pub/software/scm/git/docs man pages] and a [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial].
  * [http://www.git-scm.org/ homepage] with [http://www.git-scm.org/gitwiki wiki].
@@ -18,12 +18,17 @@
  * Linus Torvalds' [http://www.youtube.com/watch?v=4XpnKHJAok8 talk on git].
  * Randal Schwartz' [http://www.youtube.com/watch?v=8dhZ9BXQgc4 talk on git].
 
-= Related Protocols =
+== Statistics Tools ==
+
+ * [http://gittorrent.googlecode.com/files/git-stat-tools.zip Scripts] for analysing git repositories.
+ * [http://sourceforge.net/projects/gitstat/ gitstat] webbased statistics and monitoring system originally created for monitoring [http://tree.celinuxforum.org/gitstat/ the Linux kernel].
+
+== Related Protocols ==
 
  * BitTorrent: [http://www.bittorrent.org/protocol.html protocol]
  * DebTorrent: [http://wiki.debian.org/DebTorrent protocol] and [http://debtorrent.alioth.debian.org/ project].
 
-= Libraries =
+== Libraries ==
 
  * Ruby: [http://repo.or.cz/w/gitrb.git gitrb] [http://repo.or.cz/w/git/ruby-binding.git ruby-binding].
  * Java: [http://repo.or.cz/w/egit.git library and Eclipse plugin].
