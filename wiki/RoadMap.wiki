@@ -14,7 +14,7 @@ Gather information about how a git repository works in terms of file and data st
 
 == Repository Statistics ==
 
-Create tools to get information from real-world project repositories.
+Create tools to get information from real-world project repositories. As a basis, [http://gittorrent.googlecode.com/files/git-stat-tools.zip tools] from a previous GitTorrent project can maybe be used.
 
  * Object database statistics: Create tools for gathering statistics for the object database of various opensource projects. The goal is to get an idea of how the various object types relate to each other in terms of amounts and delta-size between snapshots. For example how big a percentage do commit objects make up of a repository.
 
