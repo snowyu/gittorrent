@@ -1,0 +1,26 @@
+#summary One-sentence summary of this page.
+#labels Deprecated
+
+= Introduction =
+
+The work on this protocol is very much a learning experience.
+
+== Lessons Learned From BitTorrent ==
+
+It is hard to imagine and foresee how technology is going to be used.
+
+ * Reuse existing protocols and other technology when possible. HTTP/CGI for the tracker protocol.
+
+ * Keep the core central parts as simple and stupid as possible.
+
+ * Simple This is very clear from the many extensions for BitTorrent.
+
+ *
+
+== Lessons Learned From First Draft ==
+
+ *
+
+== Lessons learned From DebTorrent ==
+
+TODO: maybe by contacting one of the contributors by mail.
