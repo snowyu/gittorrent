@@ -5,8 +5,8 @@
  * [http://gittorrent.googlecode.com/files/Fonseca-2006.pdf Paper] describing an initial draft of [http://jonas.nitro.dk/gittorrent/rfc.html the RFC v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)].
  * [http://gittorrent.utsl.gen.nz/rfc.html Extended RFC] by Sam Vilain [http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)] [http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
 
- * [http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent;a=summary Initial steps of Perl library].
- * [http://jonas.nitro.dk/gittorrent/libgtp.git/ Initial steps of a C library].
+ * [http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent;a=summary Initial work on a Perl library].
+ * [http://jonas.nitro.dk/gittorrent/libgtp.git/ Initial work on a C library].
  * [http://utsl.gen.nz/gitweb/?p=php-gt;a=summary Planning of a PHP library].
  * [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation] from initial draft project.
 
