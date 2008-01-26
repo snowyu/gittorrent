@@ -4,10 +4,6 @@ The road map, as presented here, has not been divided into milestones but presen
 
 = Preliminary Project Tasks =
 
-== Lessons Learned ==
-
-Take a look at RelatedWork and write about LessonsLearned from the various related protocols and projects.
-
 == Repository Design ==
 
 Gather information about how a git repository works in terms of file and data structures and semantics.
@@ -25,3 +21,11 @@ Create tools to get information from real-world project repositories. As a basis
  * Project repository updates: Create tools to monitor opensource projects with respect to how often updates appear in key repositories and how they change over time, for both the content (objects) and references (tags and branches). E.g. are changes different before a release, how often do new tags appear compared to regular branch updates.
 
  * Hierarchic structure: Create tools for investigating how different repositories relate to each other, e.g. how Linus' tree relates to the tree of Jeff Garzik. Git's distributed model encourages forking resulting in many repositories sharing most of the data. Each repository can be seen as a set with objects overlapping between different repository sets. The goal is to get a sense of familiarity and ancestry between a neighborhood of repositories.
+
+== Lessons Learned ==
+
+This task tries to summon up the work done in the different preliminary stages and should hopefully end up with some useful guidelines for the following design. Some of the git related work on statistics could be presented to the git community for discussion.
+
+ * Take a look at RelatedWork and write about LessonsLearned from the various related protocols and projects.
+
+ * Look at statistics and capture some of it in heuristics.
