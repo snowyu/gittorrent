@@ -25,7 +25,7 @@
 
 == Related Protocols ==
 
- * BitTorrent: [http://www.bittorrent.org/protocol.html protocol]
+ * BitTorrent
  * DebTorrent
 
 == Libraries ==
