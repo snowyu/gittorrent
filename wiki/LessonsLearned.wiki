@@ -1,26 +1,30 @@
-#summary One-sentence summary of this page.
-#labels Deprecated
+#summary Lessons learned from related protocols
+#labels Draft
 
 = Introduction =
 
-The work on this protocol is very much a learning experience.
+The work on this protocol is very much a learning experience, so it seems natural to carefully look at what lessons can be learned from related protocols.
 
 == Lessons Learned From BitTorrent ==
 
-It is hard to imagine and foresee how technology is going to be used.
+The most important lesson that the BitTorrent protocol is a testament to is that: *it is hard to imagine and foresee how technology is going to be used.* This is true for open source in general, in fact perhaps one of the reasons for the success of open source, but it is even more true for an "open protocol," such as BitTorrent.
 
- * Reuse existing protocols and other technology when possible. HTTP/CGI for the tracker protocol.
+ * *Reuse existing protocols and other technology when possible.* Examples are the use of HTTP/CGI for the tracker protocol. This kind of reuse, means that deployment ends up being much easier helping adoption. Security-wise it also makes a lot of sense to extend on already tested implementations.
 
- * Keep the core central parts as simple and stupid as possible.
+ * Meta info files and .torrent files
+
+ * *Keep the core central parts as simple and stupid as possible.*
 
  * Simple This is very clear from the many extensions for BitTorrent.
-
- *
-
-== Lessons Learned From First Draft ==
 
  *
 
 == Lessons learned From DebTorrent ==
 
 TODO: maybe by contacting one of the contributors by mail.
+
+== Lessons Learned From First Draft ==
+
+Finally, some lessons from previous work on GitTorrent. Some of this is related to the work done by Sam.
+
+ *
