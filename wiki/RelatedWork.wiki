@@ -10,9 +10,14 @@
  * [http://utsl.gen.nz/gitweb/?p=php-gt;a=summary Planning of a PHP library].
  * [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation] from initial draft project.
 
+== Related Protocols ==
+
+ * BitTorrent
+ * DebTorrent
+
 == Git Resources ==
 
- * [http://www.kernel.org/pub/software/scm/git/ Main distribution point] with the [http://www.kernel.org/pub/software/scm/git/docs man pages] and a [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial].
+ * [http://www.kernel.org/pub/software/scm/git/ Main distribution point] with the [http://www.kernel.org/pub/software/scm/git/docs/ man pages] and a [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial].
  * [http://www.git-scm.org/ homepage] with [http://www.git-scm.org/gitwiki wiki].
 
  * Linus Torvalds' [http://www.youtube.com/watch?v=4XpnKHJAok8 talk on git].
@@ -22,11 +27,6 @@
 
  * [http://gittorrent.googlecode.com/files/git-stat-tools.zip Scripts] for analysing git repositories.
  * [http://sourceforge.net/projects/gitstat/ gitstat] webbased statistics and monitoring system originally created for monitoring [http://tree.celinuxforum.org/gitstat/ the Linux kernel].
-
-== Related Protocols ==
-
- * BitTorrent
- * DebTorrent
 
 == Libraries ==
 
