@@ -22,6 +22,12 @@ Create tools to get information from real-world project repositories. As a basis
 
  * Hierarchic structure: Create tools for investigating how different repositories relate to each other, e.g. how Linus' tree relates to the tree of Jeff Garzik. Git's distributed model encourages forking resulting in many repositories sharing most of the data. Each repository can be seen as a set with objects overlapping between different repository sets. The goal is to get a sense of familiarity and ancestry between a neighborhood of repositories.
 
+If there is time, some further statistics on the performance of the current git protocols, to motivate a new protocol:
+
+ * How well are HTTP repositories packed? Will users end up downloading a lot of extra data because these repositories are rarely or too often packed incrementally?
+
+ * How much is the "meta information" overhead of the "git protocol handshake" where the client and server exchanges information about which commits each one has?
+
 == Lessons Learned ==
 
 This task tries to summon up the work done in the different preliminary stages and should hopefully end up with some useful guidelines for the following design. Some of the git related work on statistics could be presented to the git community for discussion.
