@@ -5,7 +5,7 @@
 
 The work on this protocol is very much a learning experience, so it seems natural to carefully look at what lessons can be learned from related protocols.
 
-== Lessons Learned From BitTorrent ==
+== Lessons Learned From !BitTorrent ==
 
 The most important lesson that the BitTorrent protocol is a testament to is that: *it is hard to imagine and foresee how technology is going to be used.* This is true for open source in general, in fact perhaps one of the reasons for the success of open source, but it is even more true for an "open protocol," such as BitTorrent.
 
@@ -19,8 +19,9 @@ The most important lesson that the BitTorrent protocol is a testament to is that
 
  *
 
-== Lessons learned From DebTorrent ==
+== Lessons learned From !DebTorrent ==
 
+TODO: Go through the pros and cons from the DebTorrent wiki page.
 TODO: maybe by contacting one of the contributors by mail.
 
 == Lessons Learned From First Draft ==
