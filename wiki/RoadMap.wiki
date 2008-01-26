@@ -4,6 +4,10 @@ The road map, as presented here, has not been divided into milestones but presen
 
 = Preliminary Project Tasks =
 
+== Lessons Learned ==
+
+Write about LessonsLearned from related protocols and projects.
+
 == Repository Design ==
 
 Gather information about how a git repository works in terms of file and data structures and semantics.
