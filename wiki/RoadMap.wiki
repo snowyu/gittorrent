@@ -6,7 +6,7 @@ The road map, as presented here, has not been divided into milestones but presen
 
 == Lessons Learned ==
 
-Write about LessonsLearned from related protocols and projects.
+Take a look at RelatedWork and write about LessonsLearned from the various related protocols and projects.
 
 == Repository Design ==
 
