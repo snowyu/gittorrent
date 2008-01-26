@@ -1,0 +1,18 @@
+#summary A few lines on the history and status of the protocol.
+#labels Draft
+
+The idea of a peer-to-peer protocol for distributing git repositories was first discussed on the #git IRC channel. The name, "GitTorrent," can best be attributed to the similarities between git and BitTorrent, such as the use of SHA1 for content-addressing and verification name rhyming with _bit_. One such similarit 
+
+Given git's use of SHA1 for content-addressing, something it shared with BitTorrent, the name "GitTorrent"
+
+It is to this date still pretty much vaporware. Nothing has been proven yet: not the concept, not the nice intensions, or even if there is a need for this protocol.
+
+== Initial RFC Draft ==
+
+The [http://jonas.nitro.dk/gittorrent/rfc.html first incarnation of the RFC], here referred to as the initial RFC draft, was described in the 
+
+http://gittorrent.googlecode.com/files/Fonseca-2006.pdf Paper] describing an initial draft of [http://jonas.nitro.dk/gittorrent/rfc.html the RFC v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)].
+
+== Commit Reel Draft ==
+
+ * [http://gittorrent.utsl.gen.nz/rfc.html Extended RFC] by Sam Vilain [http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)] [http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
