@@ -15,11 +15,9 @@ BitTorrent has quite a long track record by now with many implementations. Since
 
  * *Reuse existing protocols and other technology when possible.* Examples are the use of HTTP/CGI for the tracker protocol. This kind of reuse, means that deployment ends up being much easier helping adoption. Security-wise it also makes a lot of sense to extend on already tested implementations.
 
- * The meta info (.torrent) files provides a *simple mean of initial resource discovery*. With their distinctive extension and associated media type, they can be *distributed by a variety of protocol indifferent methods*, while still mapping to a specific "service" and serving as a sort of finger print for the end result.
+ * The .torrent files *provide a simple mean of initial resource discovery*. With their distinctive extension and associated media type, they *allow meta information to be distributed by a variety of protocol indifferent methods*, while still mapping to a specific "service" and serving as a sort of finger print for the end result.
 
  * *Keep the core central parts as simple and stupid as possible.* Central in its worst incarnation means _point of failure_, _management requirements_, _resource intensive_, and may therefore require the transparency granted by stripping down and removing complexity.
-
- * 
 
 TODO: Security related lessons? Accomplishing data integrity.
 
@@ -32,4 +30,5 @@ TODO: maybe by contacting one of the contributors by mail.
 
 Finally, some lessons from previous work on GitTorrent. Some of this is related to the work done by Sam.
 
- *
+TODO: Authentication of incremental updates.
+TODO: Mapping an append-only data model to a stream.
