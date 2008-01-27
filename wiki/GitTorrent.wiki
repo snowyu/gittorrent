@@ -7,9 +7,9 @@ The status of the protocol is that to this date it is still pretty much vaporwar
 
 == Initial RFC Draft ==
 
-The [http://jonas.nitro.dk/gittorrent/rfc.html first incarnation of the RFC], here referred to as the initial RFC draft, was described in the 
+The [http://jonas.nitro.dk/gittorrent/rfc.html first incarnation of the RFC], here referred to as the initial RFC draft, was the result of a [http://gittorrent.googlecode.com/files/Fonseca-2006.pdf project] done at the Department of Computer Science, University of Copenhagen ([http://www.diku.dk DIKU]) in 2006. The protocol proposed in the initial RFC draft tried to reuse as much as possible from git's existing protocols in the exchange of the repository database. The result was a protocol that basically works similar to git's "dumb" HTTP fetcher, which uses index files to discover which pack files contain interesting objects.
 
-http://gittorrent.googlecode.com/files/Fonseca-2006.pdf Paper] describing an initial draft of [http://jonas.nitro.dk/gittorrent/rfc.html the RFC v0.1] [http://jonas.nitro.dk/gittorrent/rfc.xml (xml)].
+RFC: ([http://jonas.nitro.dk/gittorrent/rfc.html (HTML)] [http://jonas.nitro.dk/gittorrent/rfc.xml (XML)].
 
 == Commit Reel RFC Draft ==
 
