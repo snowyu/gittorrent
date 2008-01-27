@@ -19,16 +19,16 @@ BitTorrent has quite a long track record by now with many implementations. Since
 
  * *Keep the core central parts as simple and stupid as possible.* Central in its worst incarnation means _point of failure_, _management requirements_, _resource intensive_, and may therefore require the transparency granted by stripping down and removing complexity.
 
-TODO: Security related lessons? Accomplishing data integrity.
+ * TODO: Security related lessons? Accomplishing data integrity.
 
 == Lessons learned From !DebTorrent ==
 
-TODO: Go through the pros and cons from the DebTorrent wiki page.
-TODO: maybe by contacting one of the contributors by mail.
+ * TODO: Go through the pros and cons from the DebTorrent wiki page.
+ * TODO: maybe by contacting one of the contributors by mail.
 
 == Lessons Learned From First Draft ==
 
 Finally, some lessons from previous work on GitTorrent. Some of this is related to the work done by Sam.
 
-TODO: Authentication of incremental updates.
-TODO: Mapping an append-only data model to a stream.
+ * TODO: Authentication of incremental updates.
+ * TODO: Mapping an append-only data model to a stream.
