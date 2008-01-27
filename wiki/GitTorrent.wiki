@@ -3,7 +3,7 @@
 
 The idea of a peer-to-peer protocol for distributing git repositories was first discussed on the #git IRC channel, where from the name given to this protocol proposal also comes. Given git's use of SHA1 for content-addressing and data integrity verification, something it shared with BitTorrent, the name "!GitTorrent" seems like a natural attribute and testament  to the strong foundation on which the protocol proposal is built.
 
-The status of the protocol is that to this date it is still pretty much vaporware. Nothing has been proven yet: not the concept, not the nice intensions, or even if there is a need for this protocol. Look below for a list of initial work towards an implementation.
+The status of the protocol is that to this date it is still pretty much vaporware. Nothing has been proven yet: not the concept, not the nice intensions, or even if there is a need for this protocol.
 
 == Initial RFC Draft ==
 
