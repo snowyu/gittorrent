@@ -8,3 +8,4 @@ The main motivation is that "upon completion and widescale deployment of the ser
 
  * [http://debtorrent.alioth.debian.org/ Alioth project page].
  * [http://wiki.debian.org/DebTorrent Debian wiki page].
+ * [http://lists.alioth.debian.org/pipermail/debtorrent-devel/2007-April/000042.html Mail discussing The GitTorrent protocol proprosal].
