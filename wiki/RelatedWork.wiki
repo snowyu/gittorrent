@@ -2,7 +2,7 @@
 
 == Existing Work ==
 
- * ProtocolProposals
+ * The various ProtocolProposals
 
  * [http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent;a=summary Initial work on a Perl library].
  * [http://jonas.nitro.dk/gittorrent/libgtp.git/ Initial work on a C library].
