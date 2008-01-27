@@ -3,11 +3,7 @@
 == Existing Work ==
 
  * The various ProtocolProposals
-
- * [http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent;a=summary Initial work on a Perl library].
- * [http://jonas.nitro.dk/gittorrent/libgtp.git/ Initial work on a C library].
- * [http://utsl.gen.nz/gitweb/?p=php-gt;a=summary Planning of a PHP library].
- * [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation] from initial draft project.
+ * SourceCode for various "work-in-progress" implementation.
 
 == Related Protocols ==
 
