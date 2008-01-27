@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary P2P file distribution protocol.
 
 The protocol is designed to be an alternative to traditional file transfer protocols such  as TFTP and FTP. It removes the need for large bandwidth capacity on a server, by forcing clients to upload pieces of the file to each other.
 
