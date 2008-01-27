@@ -1,11 +1,9 @@
 #summary A few lines on the history and status of the protocol.
 #labels Draft
 
-The idea of a peer-to-peer protocol for distributing git repositories was first discussed on the #git IRC channel. The name, "GitTorrent," can best be attributed to the similarities between git and BitTorrent, such as the use of SHA1 for content-addressing and verification name rhyming with _bit_. One such similarit 
+The idea of a peer-to-peer protocol for distributing git repositories was first discussed on the #git IRC channel, where from the name given to this protocol proposal also comes. Given git's use of SHA1 for content-addressing and data integrity verification, something it shared with BitTorrent, the name "!GitTorrent" seems like a natural attribute and testament  to the strong foundation on which the protocol proposal is built.
 
-Given git's use of SHA1 for content-addressing, something it shared with BitTorrent, the name "GitTorrent"
-
-It is to this date still pretty much vaporware. Nothing has been proven yet: not the concept, not the nice intensions, or even if there is a need for this protocol. Look below for a list of initial work towards an implementation.
+The status of the protocol is that to this date it is still pretty much vaporware. Nothing has been proven yet: not the concept, not the nice intensions, or even if there is a need for this protocol. Look below for a list of initial work towards an implementation.
 
 == Initial RFC Draft ==
 
@@ -16,10 +14,3 @@ http://gittorrent.googlecode.com/files/Fonseca-2006.pdf Paper] describing an ini
 == Commit Reel RFC Draft ==
 
  * [http://gittorrent.utsl.gen.nz/rfc.html Extended RFC] by Sam Vilain [http://utsl.gen.nz/gitweb/?p=gittorrent (gitweb)] [http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD (xml)].
-
-== Implementations ==
-
- * [http://utsl.gen.nz/gitweb/?p=VCS-Git-Torrent;a=summary Initial work on a Perl library].
- * [http://jonas.nitro.dk/gittorrent/libgtp.git/ Initial work on a C library].
- * [http://utsl.gen.nz/gitweb/?p=php-gt;a=summary Planning of a PHP library].
- * [http://jonas.nitro.dk/gittorrent/tracker/ Simple tracker implementation] from initial draft project.
