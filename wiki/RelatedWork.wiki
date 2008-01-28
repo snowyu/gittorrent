@@ -1,18 +1,15 @@
 #summary References to related work and resources.
 
-== Existing Work ==
+== Existing and Previous Work ==
 
- * The various ProtocolSpecifications.
+ * ProtocolSpecifications
  * SourceCode for various "work-in-progress" implementation.
+ * [http://gittorrent.googlecode.com/files/Fjeldsted-Fonseca-Reza-2005.pdf Specification and implementation] of the BitTorrent protocol.
 
 == Related Protocols ==
 
  * BitTorrent
  * DebTorrent
-
-== Previous Work ==
-
- * [http://gittorrent.googlecode.com/files/Fjeldsted-Fonseca-Reza-2005.pdf Specification and implementation] of the BitTorrent protocol.
 
 == Git Resources ==
 
