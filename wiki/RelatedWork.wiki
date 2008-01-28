@@ -1,8 +1,8 @@
-#summary References to GitTorrent related work and resources.
+#summary References to related work and resources.
 
 == Existing Work ==
 
- * The various ProtocolProposals
+ * The various ProtocolSpecifications.
  * SourceCode for various "work-in-progress" implementation.
 
 == Related Protocols ==
