@@ -1,0 +1,20 @@
+#summary An overview of the different protocol specifications.
+#labels Draft
+
+To date, two different protocol specification have been proposed.
+
+== Initial Protocol Draft ==
+
+The [http://jonas.nitro.dk/gittorrent/rfc.html first incarnation of the RFC], here referred to as the initial RFC draft, was the result of a [http://gittorrent.googlecode.com/files/Fonseca-2006.pdf project] done at the Department of Computer Science, University of Copenhagen ([http://www.diku.dk DIKU]) in 2006.
+
+The protocol proposed in the initial RFC draft tried to reuse as much as possible from git's existing protocols in the exchange of the repository database. The result was a protocol that basically worked somewhat similar to git's "dumb" HTTP fetcher, which uses index files to discover which pack files contain interesting objects.
+
+*RFC*: ([http://jonas.nitro.dk/gittorrent/rfc.html HTML]) ([http://jonas.nitro.dk/gittorrent/rfc.xml XML])
+
+== Serialized Protocol Draft ==
+
+TODO: Write about the [http://gittorrent.utsl.gen.nz/rfc.html extended RFC] by Sam Vilain, which introduces the concept of the _commit reel_.
+
+*RFC*: 
+([http://gittorrent.utsl.gen.nz/rfc.html HTML]) ([http://utsl.gen.nz/gitweb/?p=gittorrent;a=blob_plain;f=rfc.xml;hb=HEAD xml])
+([http://utsl.gen.nz/gitweb/?p=gittorrent gitweb])
