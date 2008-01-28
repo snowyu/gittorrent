@@ -19,5 +19,5 @@ In order for a swarm to initialise correctly there must be an initial peer that 
 
  * [http://www.bittorrent.org/protocol.html The official protocol specification].
  * [http://wiki.theory.org/BitTorrentSpecification Community maintained protocol specification].
- * [http://jonas.nitro.dk/bittorrent/bittorrent-rfc.html RFC-like protocol specification].
+ * [http://gittorrent.googlecode.com/files/Fjeldsted-Fonseca-Reza-2005.pdf Paper with RFC-like protocol specification]. The above description is taken from this work.
  * [http://dessent.net/btfaq/ Brian's BitTorrent FAQ and Guide].
