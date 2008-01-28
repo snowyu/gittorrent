@@ -11,7 +11,7 @@
  * BitTorrent
  * DebTorrent
  * [http://www.camrdale.org/apt-dht.html Apt-DHT]: a peer-to-peer proxy for apt downloads.
- * [http://gitorious.org/ Gitorious].
+ * [http://gitorious.org/ Gitorious]: distributed opensource code collaboration.
 
 == Git Resources ==
 
