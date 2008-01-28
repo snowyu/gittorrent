@@ -10,6 +10,10 @@
  * BitTorrent
  * DebTorrent
 
+== Previous Work ==
+
+ * [http://gittorrent.googlecode.com/files/Fjeldsted-Fonseca-Reza-2005.pdf Specification and implementation] of the BitTorrent protocol.
+
 == Git Resources ==
 
  * [http://www.kernel.org/pub/software/scm/git/ Main distribution point] with the [http://www.kernel.org/pub/software/scm/git/docs/ man pages] and a [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial].
