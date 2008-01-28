@@ -32,6 +32,6 @@ If there is time, some further statistics on the performance of the current git 
 
 This task tries to summon up the work done in the different preliminary stages and should hopefully end up with some useful guidelines for the following design. Some of the git related work on statistics could be presented to the git community for discussion.
 
- * Take a look at RelatedWork and write about LessonsLearned from the various related protocols and proposed ProtocolSpecifications.
+ * Write about LessonsLearned by taking a look at proposed ProtocolSpecifications, related protocols and other RelatedWork.
 
  * Look at statistics and capture some of it in heuristics.
