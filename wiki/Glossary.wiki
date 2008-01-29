@@ -1,5 +1,13 @@
 #summary List of technical terms and their meanings
 
+*choking:*
+
+  TODO.
+
 *filibration:*
 
   A state where a peer quickly changes the choke status of another peer.
+
+*optimistic unchoking:*
+
+  TODO.
