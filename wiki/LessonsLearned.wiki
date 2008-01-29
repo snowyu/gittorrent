@@ -19,7 +19,7 @@ BitTorrent has quite a long track record by now with many implementations. Since
 
  * TODO: Security related lessons? Accomplishing data integrity.
 
-== Lessons learned From !DebTorrent ==
+== Lessons Learned From !DebTorrent ==
 
  * TODO: Go through the pros and cons from the DebTorrent wiki page.
  * TODO: maybe by contacting one of the contributors by mail.
@@ -30,3 +30,13 @@ Finally, some lessons from previous work on GitTorrent. Some of this is related 
 
  * TODO: Authentication of incremental updates.
  * TODO: Mapping an append-only data model to a stream.
+
+== Lessons Learned From Git ==
+
+Since the protocol is targeted from git and the distributed nature of git has posed several interesting challenges and solution, it is relevant to look at what lessons can be learned from a distributed version control system.
+
+ * TODO: Trust model (tags and social network).
+
+== Lessons Learned From the Open Source Development Form ==
+
+The open nature of the protocol makes it interesting mainly for use in open source development. It may be relevant to come up with some guidelines for how open source operates in terms of distribution and collaboration.
