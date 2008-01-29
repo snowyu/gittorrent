@@ -37,6 +37,6 @@ Since the protocol is targeted from git and the distributed nature of git has po
 
  * TODO: Trust model (tags and social network).
 
-== Lessons Learned From the Open Source Development Form ==
+== Lessons Learned From Open Source ==
 
 The open nature of the protocol makes it interesting mainly for use in open source development. It may be relevant to come up with some guidelines for how open source operates in terms of distribution and collaboration.
