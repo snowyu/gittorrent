@@ -1,0 +1,5 @@
+#summary List of technical terms and their meanings
+
+*filibration:*
+
+  A state where a peer quickly changes the choke status of another peer.
