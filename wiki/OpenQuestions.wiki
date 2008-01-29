@@ -16,4 +16,4 @@ It is clear that both the tracker and peer need some way to tell peers apart. Fr
 
 == Are open source downloaders more altruistic? ==
 
-Basically the question is, whether anything can be said about the possible participants in a GitTorrent swarm, e.g. in terms of their willingness to contribute bandwidth? Furthermore, should any such assumption affect choices in the protocol? The obvious question is of course *no!* but it might still be relevant to keep it in mind when giving guidelines for things like download strategy.
+Basically the (tongue in cheek) question is, whether anything can be said about the possible participants in a GitTorrent swarm, e.g. in terms of their willingness to contribute bandwidth? Furthermore, should any such assumption affect choices in the protocol? The obvious answer is of course *no!* but it might still be relevant to keep it in mind when giving guidelines for things like download strategy.
