@@ -1,6 +1,7 @@
 #summary Questions that needs further investigation
 #labels Draft
 
+This page list some open questions; questions that should be studied and if deemed worthwhile added to LessonsLearned.
 
 == Are peer IDs needed? ==
 
