@@ -36,4 +36,4 @@ This task tries to summon up the work done in the different preliminary stages a
 
  * Look at statistics and capture some of it in heuristics.
 
- * Go through the OpenQuestions.
+ * Go through the list of OpenQuestions.
