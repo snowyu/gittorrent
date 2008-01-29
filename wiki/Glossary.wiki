@@ -10,4 +10,8 @@
 
 *optimistic unchoking:*
 
-  TODO.
+  A method for discovering new peers and for helping peers with no downloaded data so they can start contributing faster. It complements the tit-for-tat strategy.
+
+*swarm:*
+
+  
