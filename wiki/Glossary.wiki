@@ -2,7 +2,7 @@
 
 *choking:*
 
-  TODO.
+  A method for peers to specify whether they want to offer anything for upload.
 
 *filibration:*
 
@@ -14,4 +14,4 @@
 
 *swarm:*
 
-  
+  A collection of peers currently active in the distribution of data.
