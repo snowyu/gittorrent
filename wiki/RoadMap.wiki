@@ -35,3 +35,5 @@ This task tries to summon up the work done in the different preliminary stages a
  * Write about LessonsLearned by taking a look at proposed ProtocolSpecifications, related protocols and other RelatedWork.
 
  * Look at statistics and capture some of it in heuristics.
+
+ * Go through the OpenQuestions.
