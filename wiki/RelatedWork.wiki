@@ -18,7 +18,7 @@
 *Documentation:*
 
  * [http://www.kernel.org/pub/software/scm/git/ Main distribution point] with the [http://www.kernel.org/pub/software/scm/git/docs/ man pages] and a [http://www.kernel.org/pub/software/scm/git/docs/tutorial.html tutorial].
- * [http://www.git-scm.org/ homepage] with [http://www.git-scm.org/gitwiki wiki].
+ * [http://www.git-scm.org/ Homepage] with [http://www.git-scm.org/gitwiki wiki].
 
 *Video presentations:*
 
