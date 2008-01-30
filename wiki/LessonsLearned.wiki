@@ -28,7 +28,7 @@ BitTorrent has quite a long track record by now with many implementations. Since
 
 Finally, some lessons from previous work on GitTorrent. Some of this is related to the work done by Sam.
 
- * *Dependency on git packs as a format for object database serialization is unviable.* Because different repositories contain different kind of data, the heuristics for packing a repository can be tweaked via options. Pack files are thus not stable across different machines.
+ * *Dependency on git packs as a format for object database serialization is unviable.* Because repositories may contain different kinds of data with highly different compression properties, the heuristics for packing a repository can be tweaked via options. Pack files are thus not stable across different machines.
 
  * TODO: Authentication of incremental updates.
  * TODO: Mapping an append-only data model to a stream.
