@@ -1,6 +1,6 @@
 #summary Where to get source for the various protocol implementations.
 
-  _More alpha than the Greek letter_
+Motto: _More alpha than the Greek letter_
 
 All the repositories and source references listed below are only partial. No working implementation currently exists.
 
