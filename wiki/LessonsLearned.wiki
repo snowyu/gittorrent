@@ -36,12 +36,14 @@ Finally, some lessons from previous work on GitTorrent. Some of this is related 
 
 Since the protocol is targeted from git and the distributed nature of git has posed several interesting challenges and solution, it is relevant to look at what lessons can be learned from a distributed version control system.
 
+ * A guideline often reiterated by Linus is that *good basic data models are more important than anything else.* It is often easier to understand data models than any code that sits on top of it.
+
  * TODO: Trust model (tags and social network).
 
 == Lessons Learned From Open Source ==
 
 The open nature of the protocol makes it interesting mainly for use in open source development. It may be relevant to come up with some guidelines for how open source operates in terms of distribution and collaboration.
 
- * The _release early, release often_ mantra encourages an *evolutionary or incremental design, instead of intelligent design*. The lesson is to focus on solving a well-defined, smaller, and often more clearly understood part of the problem, and save the exotic things for later. For each iteration the understanding of the system grows and will lead to a better design.
+ * The _release early, release often_ mantra encourages an *evolutionary or incremental design, instead of intelligent design*. The lesson is to focus on solving a well-defined, smaller, and often more clearly understood part of the problem. For each iteration the understanding of the system grows and will over time lead to a better design.
 
  * Of all of the above, perhaps the most important thing to keep in mind is that *it is hard to imagine and foresee how technology is going to be used*. This is true for an "open protocol" like BitTorrent, and more generally for development done in the open. It may even be argued that this is one of the reasons for the success of open source. The lesson is to _design for the future_.
