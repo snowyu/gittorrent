@@ -7,10 +7,6 @@ The work on this protocol is very much a learning experience, so it seems natura
 
 BitTorrent has quite a long track record by now with many implementations. Since its initial release many extensions have been developed, some of them to fit a very specific use case. Given this rich history of a popular protocol, many lessons can be learned.
 
- * Perhaps the most important lesson, the BitTorrent protocol is a testament to, is that *it is hard to imagine and foresee how technology is going to be used*. This is true for an "open protocol" like BitTorrent, and more generally for development done in the open. In fact, this is one of the reasons for the success of open source.
-
- * *Incremental design, instead of intelligent design*. This is sort of a recap of the previous item and something that is very clear from the many extensions for BitTorrent. The lesson is to focus on solving a well-defined, smaller, and often more clearly understood part of the problem, and save the exotic things for later. One might also formulate it as: "Make it possible to admit and correct wrong decissions".
-
  * *Reuse existing protocols and other technology when possible.* Examples are the use of HTTP/CGI for the tracker protocol. This kind of reuse, means that deployment ends up being much easier helping adoption. Security-wise it also makes a lot of sense to extend on already tested implementations.
 
  * The .torrent files *provide a simple mean of initial resource discovery*. With their distinctive extension and associated media type, they *allow meta information to be distributed by a variety of protocol indifferent methods*, while still mapping to a specific "service" and serving as a sort of finger print for the end result. Compared to other similar P2P systems, this separation of resource discovery (searching for torrents) and resource sharing allows the peer-wire protocol to be simpler and reduces communication requirements by eliminates the need for flooding.
@@ -45,3 +41,7 @@ Since the protocol is targeted from git and the distributed nature of git has po
 == Lessons Learned From Open Source ==
 
 The open nature of the protocol makes it interesting mainly for use in open source development. It may be relevant to come up with some guidelines for how open source operates in terms of distribution and collaboration.
+
+ * *Incremental design, instead of intelligent design*. This is sort of a recap of the previous item and something that is very clear from the many extensions for BitTorrent. The lesson is to focus on solving a well-defined, smaller, and often more clearly understood part of the problem, and save the exotic things for later. One might also formulate it as: "Make it possible to admit and correct wrong decissions".
+
+ * Of all of the above, perhaps the most important thing to keep in mind is that *it is hard to imagine and foresee how technology is going to be used*. This is true for an "open protocol" like BitTorrent, and more generally for development done in the open. It may even be argued that this is one of the reasons for the success of open source. The lesson is to _design for the future_.
