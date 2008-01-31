@@ -16,3 +16,9 @@ It is clear that both the tracker and peer need some way to tell peers apart. Fr
 == Are open source downloaders more altruistic? ==
 
 Basically the (somewhat tongue in cheek) question is, whether anything can be said about the possible participants in a GitTorrent swarm, e.g. in terms of their willingness to contribute bandwidth? Furthermore, should any such assumption affect choices in the protocol? The obvious answer is of course *no!* but it might still be relevant to keep it in mind when giving guidelines for things like download strategy.
+
+== Are seeder-to-seeder connections useful? ==
+
+Since new repository data can appear at anytime, no (or very few) peers will remain seeders over time. Some research (in network topology) suggests that during the lifetime of a network certain nodes will inherently become "hubs" or "super nodes" due to their superior connectivity. Assuming that this type of connectivity is mainly gained by being more interesting to other peers and by being longer in the network, seeds or "near-completed" peers are probably most likely to be put into the role of super nodes. Contrary to BitTorrent, keeping seeder-to-seeder connection might be something the protocol can capitalize on as a method for spreading reference updates faster to all the network.
+
+This raises another question related to the exchange of peer addresses over the peer-wire protocol. If seeder-to-seeder connections are not allowed, should seeders also offer to send this type of message since non-seeders will likely be more interested in seeders to have more options to download from?
