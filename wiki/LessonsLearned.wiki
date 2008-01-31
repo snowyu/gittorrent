@@ -1,4 +1,4 @@
-#summary Lessons learned from related protocols
+#summary Lessons learned from related protocols and systems
 #labels Draft
 
 The work on this protocol is very much a learning experience, so it seems natural to carefully look at what lessons can be learned from related protocols.
