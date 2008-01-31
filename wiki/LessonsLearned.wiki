@@ -19,6 +19,7 @@ BitTorrent has quite a long track record by now with many implementations. Since
 
  * *Simple peer and piece selection algorithms are good enough.* They reduce peer state and computations and make peers easier to implement, while encouraging fairness. [[http://www.imconf.net/imc-2006/papers/p20-legout.pdf 1]] Furthermore, the rarest-first policy leads to good replication. [[http://www.camrdale.org/Resume/pieces.pdf 2]]
 
+ * TODO: Something about meta-data.
  * TODO: Security related lessons? Accomplishing data integrity.
 
 == Lessons Learned From !DebTorrent ==
