@@ -19,6 +19,12 @@ BitTorrent has quite a long track record by now with many implementations. Since
 
 == Lessons Learned From !DebTorrent ==
 
+The work on defining the DebTorrent protocol provides valuable lessons for which new requirements appear when torrents no longer are static.
+
+ * *Incremental data adds considerable complexity.* It is hard to extend on BitTorrent and maintain its simplicity. The main cause is the additional meta information for defining how generational data is to be handled. This extra dimension of complexity may lead to peers having different views of the data being downloaded.
+
+ * Although data may be replicated several places in the system, *it is necessary to limit the size of the torrent and the amount of meta information* in order to keep the swarm scalable and healthy.
+
  * TODO: Go through the pros and cons from the DebTorrent wiki page.
  * TODO: maybe by contacting one of the contributors by mail.
 
