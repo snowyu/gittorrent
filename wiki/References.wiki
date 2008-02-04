@@ -2,6 +2,8 @@
 
 = References =
 
+Inspiring reading divided by topics.
+
 == !BitTorrent ==
 
 [http://www.imconf.net/imc-2006/papers/p20-legout.pdf Rarest First and Choke Algorithms Are Enough]:
