@@ -29,9 +29,13 @@ _Cameron Dale and Jiangchuan Liu_
 
 == Networks ==
 
+----
+
 === Scale-Free Networks ===
 
 Scientists have recently discovered that various complex systems have an underlying architecture governed by shared organizing principles.
 
 _Albert-László Barabási and Eric Bonabeau_
 [[http://www.nd.edu/~networks/Publication%20Categories/01%20Review%20Articles/ScaleFree_Scientific%20Ameri%20288,%2060-69%20(2003).pdf       pdf]]
+
+----
