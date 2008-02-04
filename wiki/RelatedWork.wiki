@@ -1,4 +1,6 @@
-#summary References to related work and resources.
+#summary An overview of related work and resources.
+
+Below various useful resources and related work are listed. Also see the other inspirational [References].
 
 == Existing and Previous Work ==
 
