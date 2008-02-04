@@ -1,0 +1,7 @@
+#summary Interesting articles and papers related to this project.
+
+= References =
+
+== Scale-Free Networks ==
+
+ * http://www.nd.edu/~networks/Publication%20Categories/01%20Review%20Articles/ScaleFree_Scientific%20Ameri%20288,%2060-69%20(2003).pdf 
