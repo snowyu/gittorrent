@@ -12,6 +12,7 @@ Argues that the rarest first algorithm guarantees close to ideal diversity of th
 
 _Arnaud Legout, G. Urvoy-Keller and P. Michiardi_
 [[http://www.imconf.net/imc-2006/papers/p20-legout.pdf pdf]]
+[[http://scholar.google.com/scholar?q=%22Rarest+First+and+Choke+Algorithms+Are+Enough%22 google]]
 
 === A Measurement Study of Piece Population in !BitTorrent ===
 
