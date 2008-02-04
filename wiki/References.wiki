@@ -22,6 +22,7 @@ _Cameron Dale and Jiangchuan Liu_
 [[http://www.camrdale.org/Resume/pieces.pdf pdf]]
 [[http://scholar.google.com/scholar?q=%22A+Measurement+Study+of+Piece+Population+in+BitTorrent%22 google]]
 
+----
 
 == Networks ==
 
