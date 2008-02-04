@@ -13,7 +13,7 @@ Argues that the rarest first algorithm guarantees close to ideal diversity of th
 {Arnaud Legout, G. Urvoy-Keller and P. Michiardi}
 [[http://www.imconf.net/imc-2006/papers/p20-legout.pdf pdf]]
 
-=== A Measurement Study of Piece Population in BitTorrent ===
+=== A Measurement Study of Piece Population in !BitTorrent ===
 
 Validates that the downloading policy of BitTorrent is quite effective from a piece distribution and evolution perspective; yet enhancements are still possible to achieve the ideal piece distribution.
 
