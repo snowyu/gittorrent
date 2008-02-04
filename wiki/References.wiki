@@ -4,4 +4,4 @@
 
 == Scale-Free Networks ==
 
- * http://www.nd.edu/~networks/Publication%20Categories/01%20Review%20Articles/ScaleFree_Scientific%20Ameri%20288,%2060-69%20(2003).pdf 
+ * [http://www.nd.edu/~networks/Publication%20Categories/01%20Review%20Articles/ScaleFree_Scientific%20Ameri%20288,%2060-69%20(2003).pdf  Scale-Free Networks]: Scientists have recently discovered that various complex systems have an underlying architecture governed by shared organizing principles.
