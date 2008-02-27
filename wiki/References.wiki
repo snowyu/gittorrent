@@ -1,7 +1,5 @@
 #summary Interesting articles and papers related to this project.
 
-= References =
-
 Inspiring reading divided by topics.
 
 == !BitTorrent ==
