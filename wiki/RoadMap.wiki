@@ -1,4 +1,5 @@
 #summary Project road map and task planning
+#labels Featured
 
 The road map, as presented here, has not been divided into milestones but presents tasks that it might be relevant to investigate further. They should be entered into the issue tracker.
 
