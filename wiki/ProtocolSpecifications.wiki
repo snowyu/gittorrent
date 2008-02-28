@@ -1,5 +1,5 @@
 #summary An overview of the different protocol specifications.
-#labels Draft
+#labels Draft,Featured
 
 To date, two different protocol specification have been proposed.
 
