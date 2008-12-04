@@ -11,8 +11,6 @@ http://utsl.gen.nz/talks/gittorrent/slide12.html - until this page is finished y
 
 The entire Torrent process was broken down into these three parts.  In git development fashion each of which are to be evaluated and implemented independently and each one incrementally adds benefits.
 
-* Mirror List - "get me a list of current mirrors, and tell me the latest 'ref'"
-
-* Mirror Notify - "FYI, I'm mirroring repository X at location Y.  HAND!"
-
-* Mirror Sync - "Oh hai, can you hand me a slice of git pack?  And want any of mine?"
+  * Mirror List - "get me a list of current mirrors, and tell me the sha1 for the latest set of references"
+  * Mirror Notify - "FYI, I'm mirroring repository X at location Y.  HAND!"
+  * Mirror Sync - "Oh hai, can you hand me a slice of git pack?  And want any of mine?"
