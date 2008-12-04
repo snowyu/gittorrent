@@ -7,4 +7,12 @@ This protocol was designed to be a stripped-down version of the GitTorrent proto
 This page is essentially copying all of the details from
 http://utsl.gen.nz/talks/gittorrent/slide12.html - until this page is finished you can read there.
 
-= Details =
+= Key Mirror Sync Protocol Messages =
+
+The entire Torrent process was broken down into these three parts.  In git development fashion each of which are to be evaluated and implemented independently and each one incrementally adds benefits.
+
+* Mirror List - "get me a list of current mirrors, and tell me the latest 'ref'"
+
+* Mirror Notify - "FYI, I'm mirroring repository X at location Y.  HAND!"
+
+* Mirror Sync - "Oh hai, can you hand me a slice of git pack?  And want any of mine?"
