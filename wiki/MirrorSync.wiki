@@ -1,0 +1,10 @@
+#summary Protocol design of the Mirror Sync Protocol
+
+= Introduction =
+
+This protocol was designed to be a stripped-down version of the GitTorrent protocol, instead of basing its core design on the binary BitTorrent protocol it is designed to fit cleanly into git.  Some of the core concepts - in particular, the design for dividing pushed and pulled packs into roughly equal sections - will be carried over.  But it will look very different to BitTorrent by the end of this.
+
+This page is essentially copying all of the details from
+http://utsl.gen.nz/talks/gittorrent/slide12.html - until this page is finished you can read there.
+
+= Details =
