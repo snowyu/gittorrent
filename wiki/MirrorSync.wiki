@@ -17,6 +17,8 @@ The entire Torrent process was broken down into these three parts.  In git devel
 
 == Mirror List ==
 
+This request replaces the Tracker HTTP protocol.
+
 Example request (for brevity, the vhost part of the request has not been included)
 
 {{{
@@ -29,12 +31,12 @@ The response to this might be;
 auth refs/* 82312e41472b5f8d86e36e30fc06408866b25843
 latest f1d2d2f924e986ac86fdf7b36c94bcdf32beec15
 try git://repo.or.cz/linux-2.6 86400 current
-try http://git.utsl.gen.nz/mirror/repo.or.cz/linux-2.6 3600 current
-try git://214.23.35.210/ 86400 partial
+try http://git.utsl.gen.nz/mirror/repo.or.cz/linux-2.6 86400 current
+try git://214.23.35.210/ 3600 partial
 }}}
 
 To disect and explain that;
 
   * The "latest" part is the SHA1 of the current packed-refs file which represents the result of the most current push to this repository; to be useful, we also need to be able to retrieve the packed-refs file in question.  Currently this was designed to be encapsulated in a git tag object, to allow for comments and PGP signatures without more infrastructure.
   * The `auth refs/* 823..66b25843` part is saying that "if you see a packed-refs/tag object signed by key ID 66b25843, and it changes references matching refs/, it's valid." - there's a slight security flaw with issuing authorization like this over an unauthenticated channel; my current thoughts are that the web of trust and saving known keys like ssh does will make this not a real issue.
-  * All of the "try" lines are mirrors; the master server may or may not have already confirmed that they work.  The times after the URL represent the TTL of this mirror line, and the final word represents whether or not when it was last checked that this mirror was up to date or not.
+  * All of the "try" lines are mirrors; the master server may or may not have already confirmed that they work.  The times after the URL represent the TTL of this mirror line, and the final word represents whether or not when it was last checked that this mirror was up to date or not.  That last one, for instance, is more BitTorrent-style; it's a partial download.
