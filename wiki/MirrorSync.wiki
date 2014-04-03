@@ -5,7 +5,7 @@
 This protocol was designed to be a stripped-down version of the GitTorrent protocol, instead of basing its core design on the binary BitTorrent protocol it is designed to fit cleanly into git.  Some of the core concepts - in particular, the design for dividing pushed and pulled packs into roughly equal sections - will be carried over.  But it will look very different to BitTorrent by the end of this.
 
 This page is essentially copying all of the details from
-http://utsl.gen.nz/talks/gittorrent/slide12.html, but with explanatory notes which weren't in the original slideshow (which, of course, I explained in person!)
+http://sam.vilain.net/talks/gittorrent/slide10a.html, but with explanatory notes which weren't in the original slideshow (which, of course, I explained in person!)
 
 = Key Mirror Sync Protocol Messages =
 
